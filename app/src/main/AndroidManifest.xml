@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarGIT">
         <activity
+            android:name=".dosenActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
     </application>
